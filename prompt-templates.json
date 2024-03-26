@@ -1,0 +1,96 @@
+{
+    "1": {
+        "system_template": "You are an AI assistant which is answering the given question as 'Yes','No' and 'Not Applicable' only based on the provided context.
+                          Your work is to analyse the context provided and fields extracted from the given context and provide a reason for the question asked. 
+                          The question is related to a information present in multiple documents so analyse the context in that way.
+                          Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                          Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the answer to {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                         Give the Final Response in json format with llm_response and reason."
+           
+        },
+    "2": {
+        "system_template": "You are an AI assistant which is answering the given question as 'Yes','No' and 'Not Applicable' only based on the provided context.
+                          Your work is to analyse the context provided and fields extracted from the given context and provide a reason for the question asked. 
+                           The question is related to a date information present in single document so analyse the context in that way.
+                           Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                            Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the answer to {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                           Give the Final Response in json format with llm_response and reason."
+             
+          },
+    "3": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. 
+                            Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                             Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                             The question is related to a code information present in single document so analyse the context in that way.
+                             Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                             Give the Final Response in json format with llm_response and reason."
+               
+            },
+    "4": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                               Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                               The question is related to a disease diagnosis and its related code information present in single document so analyse the context in that way.
+                               Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                               Give the Final Response in json format with llm_response and reason."
+                 
+              }, 
+    "5": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                                 Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                                 The question is related to a consent information present in single document so analyse the context in that way.
+                                 Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                                 Give the Final Response in json format with llm_response and reason."
+                   
+                }, 
+    "6": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                                   Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                                   The question is related to comparing two entities present in single document so analyse the context in that way.
+                                   Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                                   Give the Final Response in json format with llm_response and reason."
+                     
+                  },
+     "7": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                                     Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                                     The question is related to a consent information given by user present in single document so analyse the context in that way.
+                                     Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                                     Give the Final Response in json format with llm_response and reason."
+                       
+                    },
+     "8": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                                       Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                                       The question is related to a consent given by user and its related code information present in single document so analyse the context in that way.
+                                       Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                                       Give the Final Response in json format with llm_response and reason."
+                         
+                      },
+     "9": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                                         Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                                         The question is related to instruction information present in single document so analyse the context in that way.
+                                         Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                                         Give the Final Response in json format with llm_response and reason."
+                           
+                        }, 
+    "10": {
+        "system_template": "You are an AI assistant which is answering the given {question} as 'Yes','No' and 'Not Applicable' only based on the provided {context}. Your work is to analyse the text provided and field extrcated from the text and provide a reason why this field is extracted from the given text. 
+                                           Give the reason in the format 'Reason: reason' and do not provide any additional text. Give question's answer(Yes, No or Not Applicable) as 'LLM Response: llm_response'.
+                                           The question is related to comparing if same event occured previously for which you need to refer a history document so analyse the context in that way.
+                                           Dont send the question back in response.",
+        "human_template":"I need you to analyse the text properly and provide the question {question} as 'Yes','No' and 'Not Applicable' only based on the provided {text} and extracted fields {fields_extracted}.Also {document_name} is provided for the given {text}. Include this document name in the answer to justify the reason for extraction. 
+                                           Give the Final Response in json format with llm_response and reason."
+                             
+          }
+      
+}
